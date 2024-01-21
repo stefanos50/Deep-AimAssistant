@@ -1,6 +1,6 @@
 # Deep-AimAssistant
 
-This is a generic aim assistant application that employs AI (Object Detection) and automatically detects and points detected objects in real-time applications without interfering with the actual executable or files of the target application. `The code was written specifically for educational purposes on AI techniques, and that is why the fine-tuned weights of the trained models are not included`. The code can still be applied with some limitations by employing the default pre-trained models that YOLOv5 provides on the COCO dataset, but use it at your own risk. This is the extension of a [previous repository](https://github.com/stefanos50/Real-Time-Object-Detection-In-Games) where Python plays an endless runner game also based on object detection.
+This is a generic aim assistant application that employs AI (Object Detection) and automatically detects and points detected objects in real-time applications without interfering with the actual executable or files of the target application. `The code was written strictly for educational purposes on AI techniques, and that is why the fine-tuned weights of the trained models are not included`. The code can still be applied with some limitations by employing the default pre-trained models that YOLOv5 provides on the COCO dataset, but use it at your own risk. This is the extension of a [previous repository](https://github.com/stefanos50/Real-Time-Object-Detection-In-Games) where Python plays an endless runner game also based on object detection.
 
 # How it Works
 
