@@ -6,11 +6,11 @@ This is a generic aim assistant application that employs AI (Object Detection) a
 
 The approach detects objects based on the YOLOv5 model at around 33FPS in real-time with an RTX 4090 by capturing screenshots of a target window on the screen, which can be a real-time application. Based on the center of the detected box location that is closer to the current mouse location (to smooth the selection), after converting the coordinates to the full resolution scale, the mouse is automatically moved by the Windows API. If the target location is not the center of the bounding box, then the location can be dynamically modified by the bounding box properties and a pre-selected offset. Additional parameters (target class selection, team color selection, confidence threshold, etc.) can be modified by a window that provides a UI at the start of the execution of the script.
 
-#ToDo 
+# ToDo 
 
 * Add Nvidia TensorRT compiler to improve the real-time performance.
 
-#Example
+# Execution Example
 
 The code was tested in Assault Cube vs. Bots. Please, as already stated, if you use this code, use it only in offline applications or AI opponents.
 
